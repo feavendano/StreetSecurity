@@ -1,0 +1,34 @@
+<!--Copyright(C) <2016> <BajaInTec>
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=5B:FB:C9:B0:59:E5:46:4A:4D:35:33:55:E8:0E:97:45:1B:27:1D:D3%3Bandroidmapsdefinitivo.android.bajaintec.com.androidmapsdefinitivo
+
+    You can also add your credentials to an existing key, using this line:
+    5B:FB:C9:B0:59:E5:46:4A:4D:35:33:55:E8:0E:97:45:1B:27:1D:D3;androidmapsdefinitivo.android.bajaintec.com.androidmapsdefinitivo
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        AIzaSyBU6qUvDqrHM5Gae42p4IOesm04y7KpSYw
+    </string>
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright(C) <2016> <BajaInTec>
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:gravity="center"
+    tools:context=".SeleccionIngresoActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1"
+
+        android:id="@+id/linearLayout">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="186dp"
+            android:id="@+id/imageView"
+            android:src="@drawable/logoapp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="54dp"
+            android:layout_weight="0.29"/>
+
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="36dp"
+        android:text="@string/ingreso_sistema"
+        android:id="@+id/ingresar"
+        android:textDirection="ltr"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="#e74d3d"
+
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="20dp"
+        android:textDirection="ltr"
+        android:text="@string/crear_cuenta"
+        android:id="@+id/crear_cuenta"
+        android:layout_weight="0.65"
+        android:layout_centerHorizontal="true"
+        android:background="#ffffff"
+        android:textColor="#4d4d4d" />
+    </LinearLayout>
+
+
+</RelativeLayout>

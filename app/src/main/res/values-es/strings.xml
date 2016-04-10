@@ -1,0 +1,31 @@
+<!--Copyright(C) <2016> <BajaInTec>
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
+<resources>
+    <string name="app_name">SAFE</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="ingreso_sistema">Iniciar Sesion</string>
+    <string name="crear_cuenta">Crear cuenta</string>
+    <string name="registro_text">Registro</string>
+    <string name="usuario_edit_text">Usuario</string>
+    <string name="contrasena_usuario">Contraseña</string>
+    <string name="confirmar_contrasena_usuario">Confirmar Contraseña</string>
+    <string name="correo_electronico">Correo Electronico</string>
+    <string name="fecha_nacimiento_text">Fecha de nacimiento</string>
+    <string name="continuar_btn">Continuar</string>
+    <string name="iniciar_sesion">Iniciar sesion</string>
+    <string name="campo_vacio_usuario">Nombre obligatorio</string>
+    <string name="campo_vacio_contrasena">Contraseña obligatoria</string>
+    <string name="campo_vacio_correo">Correo obligatorio</string>
+    <string name="contrasena_no_iguales">Las contraseñas no son iguales</string>
+</resources>
